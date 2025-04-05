@@ -107,7 +107,8 @@ class ReflexAgent(Agent):
         if action == 'Stop':
             #print('here')
             return float('-inf')
-        return successorGameState.getScore() + 1/(1+minDist) #+ ghostDist*2
+        return 1
+        #return successorGameState.getScore() + 1/(1+minDist) #+ ghostDist*2
 
 def scoreEvaluationFunction(currentGameState: GameState):
     """

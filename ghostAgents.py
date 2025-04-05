@@ -21,8 +21,8 @@ import util
 
 
 class GhostAgent(Agent):
-    def __init__(self, index):
-        self.index = index
+    #def __init__(self, index):
+        #self.index = index
 
     def getAction(self, state):
         dist = self.getDistribution(state)

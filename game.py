@@ -81,9 +81,9 @@ class Configuration:
     horizontally and y increases vertically.  Therefore, north is the direction of increasing y, or (0,1).
     """
 
-    def __init__(self, pos, direction):
-        self.pos = pos
-        self.direction = direction
+    #def __init__(self, pos, direction):
+    #    self.pos = pos
+    #    self.direction = direction
 
     def getPosition(self):
         return (self.pos)
